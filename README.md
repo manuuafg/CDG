@@ -72,3 +72,5 @@ Antes de comenzar, asegúrate de tener instalado:
 - Abre tu navegador y visita:
   ```bash
   http://localhost/CDG
+
+- Usuario y contraseña: Admin
