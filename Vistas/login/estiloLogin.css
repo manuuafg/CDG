@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../../vistas/login/images/fondo.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+form{
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 50px 50px 50px;
+    width: 400px;
+    color: #ffefff;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 2);
+    border-radius: 25px;
+    backdrop-filter: blur(2.5px);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
+
+}
+
+p{
+    color:red;
+}
+
+form img{
+
+    width: 250px;
+    margin-bottom: 5px;
+    
+}
+
+.input-container{
+        position: relative;
+}
+
+.input-container > i{
+        padding: 14px;
+        border-radius: 50%;
+        background-color: #b57e10;
+        color: #fcfef7;
+        position: absolute;
+        font-size: 20px;
+        top: 7px;
+        right: 8px;
+}
+
+.input-container > input{
+    padding: 20px 50px 20px 15px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 35px;
+    background-color: transparent;
+    border: 2px solid #b57e10;
+    font-size: 16px;
+    outline: none;
+    color: #fcfef7;
+}
+
+::placeholder{
+
+    color: #ffefff;
+    font-size: 16px;
+
+}
+.btn{
+
+    background-color: #b57e10;
+    padding: 14px 45px;
+    border: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    color: #fcfef7;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+.btn:hover{
+    background: linear-gradient(to right, #975f0c, #b57e10);
+    color: white;
+    transform: scale(1.05);
+}
+
+.error{
+
+    position: absolute;
+    top: 50px;
+    color: red;
+    font-size: 20px;
+
+}
+
+@media(max-width:991px){
+
+    body{
+        padding: 30px;
+    }
+
+    form{
+        width: 100%;
+    }
+
+}

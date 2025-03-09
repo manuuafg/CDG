@@ -1,0 +1,45 @@
+select#categoria {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px; 
+    margin-right: 10px; 
+}
+
+input[type="submit"]:hover {
+    background-color: #b57e10;
+}
+.btn-1, .btn-2 {
+    transition: background 0.3s ease, transform 0.3s  ease;
+
+}
+.btn-1:hover, .btn-2:hover {
+    color: white;
+    transform: scale(1.05);
+
+}
+.btn-2:hover {
+    background: #0056b3;
+}
+
+
+.btn-3 {
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #b57e10;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-3:hover {
+    background: linear-gradient(to right, #975f0c, #b57e10);
+    color: white;
+    transform: scale(1.05);
+}
+
+
